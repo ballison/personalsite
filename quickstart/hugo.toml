@@ -2,3 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-gb'
 title = 'My New Hugo Site'
 theme = 'hugo-blog-awesome'
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"
