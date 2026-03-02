@@ -1,15 +1,7 @@
 baseURL = 'https://ballison.github.io/personalsite/'
 languageCode = 'en-gb'
-title = 'My New Hugo Site'
+title = 'Benjamin Allison's site'
 theme = 'hugo-blog-awesome'
-
-[[params.socialIcons]]
-name = "Rss"
-url = "/index.xml"
-
-[caches]
-    [caches.images]
-        dir = ':cacheDir/images'
 
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
@@ -18,6 +10,14 @@ defaultContentLanguage = "en-gb"
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 ignoreLogs = ["additional-script-loading-error"] # ignore error of loading additional scripts.
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
 
 
 [Languages.en-gb]
