@@ -17,6 +17,7 @@ defaultContentLanguage = "en-gb"
 # Enable emojis globally
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
+ignoreLogs = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
 
 [Languages.en-gb]
