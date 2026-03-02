@@ -1,10 +1,11 @@
 +++
-date = '2026-01-11T11:04:56Z'
-draft = true
-title = 'My First Post'
+date = '2026-03-02T18:53:04Z'
+draft = false
+title = 'Introduction'
 +++
-## Introduction
 
-This is **bold** text, and this is *emphasized* text.
+![Picture of me](/BenA_256.png)
 
-Visit the [Hugo](https://gohugo.io) website!
+Hi! My name is Benjamin Allison, a UX developer in the software development industry for over 10 years.
+
+<!--This is **bold** text, and this is *emphasized* text.-->
