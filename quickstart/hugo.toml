@@ -23,7 +23,7 @@ url = "/index.xml"
 [Languages.en-gb]
   languageName = "English"
   languageCode = "en-gb"
-  contentDir = "content/en"
+  contentDir = "content"
   weight = 1
 
   [Languages.en-gb.menu]
@@ -34,24 +34,14 @@ url = "/index.xml"
     name = 'Home'
     url = '/'
     weight = 10
-  [[Languages.en-gb.menu.main]]
-    pageRef="posts"
-    name = 'Posts'
-    url = '/posts/'
-    weight = 20
-  [[Languages.en-gb.menu.main]]
-    pageRef="about"
-    name = 'About'
-    url = '/about/'
-    weight = 30
 
 [Languages.en-gb.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Site of Benjamin Allison"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "Minimal Hugo blog theme with light and dark mode support"
+  description = "Site of Benjamin Allison"
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
@@ -71,8 +61,8 @@ url = "/index.xml"
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
-  name = "Sidharth R"
+  intro = "Site of Benjamin Allison"
+  name = "Benjamin Allison"
   description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
 
 # Allow to override webmanifest options
