@@ -79,12 +79,12 @@ jobs:
             hugo-
       - name: Build the site
         run: |
+          cd ./quickstart
           hugo build \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-        working-directory: ./quickstart
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
