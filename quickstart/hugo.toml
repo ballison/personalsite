@@ -1,6 +1,6 @@
 baseURL = 'https://ballison.github.io/personalsite/'
 languageCode = 'en-gb'
-title = 'Benjamin Allison's site'
+title = 'Site of Benjamin Allison'
 theme = 'hugo-blog-awesome'
 
 # This defines how dates are formatted
